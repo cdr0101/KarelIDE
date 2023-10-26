@@ -1,0 +1,40 @@
+function main(){
+   line1();
+   transition1();
+   line2();
+   transition2();
+   line1();
+   transition1();
+   line2();
+   transition2();
+   line1();
+}
+ function bottomHalf(){
+    move();
+    move();
+    putBeeper();
+ }
+ function secHalf(){
+    move();
+    putBeeper();
+    move();
+ }
+ function line1(){
+   putBeeper();
+   bottomHalf();
+   bottomHalf();
+ }
+ function line2(){
+   secHalf();
+   secHalf();
+ }
+ function transition1(){
+   turnLeft();
+   move();
+   turnLeft();
+ }
+ function transition2(){
+   turnRight();
+   move();
+   turnRight();
+ }
