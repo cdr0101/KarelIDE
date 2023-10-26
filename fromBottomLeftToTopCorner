@@ -1,0 +1,19 @@
+function main(){
+   step();
+   turn();
+   step();
+   turn();
+   step();
+   turn();
+   step();
+}
+ function step(){
+    move();
+    turnLeft();
+    move();
+ }
+ function turn(){
+    turnLeft();
+    turnLeft();
+    turnLeft();
+ }
