@@ -1,0 +1,16 @@
+function main(){
+   step();
+   turnRight();
+   step();
+   turnRight();
+   step();
+   turnRight();
+   step();
+   putBeeper();
+}
+ function step(){
+    putBeeper();
+    move();
+    turnLeft();
+    move();
+ }
